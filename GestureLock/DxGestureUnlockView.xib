@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="YkL-I9-Zw1" customClass="DxGestureUnLockVeiw">
+            <rect key="frame" x="0.0" y="0.0" width="400" height="400"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OFo-g5-rpm">
+                    <rect key="frame" x="68" y="178" width="58" height="58"/>
+                    <state key="normal" image="gesture_normal.png">
+                        <attributedString key="attributedTitle"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Iyk-H6-HKD">
+                    <rect key="frame" x="68" y="76" width="58" height="58"/>
+                    <state key="normal" image="gesture_normal.png">
+                        <attributedString key="attributedTitle"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2y1-8s-h21">
+                    <rect key="frame" x="281" y="76" width="58" height="58"/>
+                    <state key="normal" image="gesture_normal.png">
+                        <attributedString key="attributedTitle"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6kX-uA-OgE">
+                    <rect key="frame" x="177" y="178" width="58" height="58"/>
+                    <state key="normal" image="gesture_normal.png">
+                        <attributedString key="attributedTitle"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7bk-Dk-EVp">
+                    <rect key="frame" x="281" y="178" width="58" height="58"/>
+                    <state key="normal" image="gesture_normal.png">
+                        <attributedString key="attributedTitle"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="60v-fr-Fmv">
+                    <rect key="frame" x="177" y="76" width="58" height="58"/>
+                    <state key="normal" image="gesture_normal.png">
+                        <attributedString key="attributedTitle"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kmE-ET-ZJu">
+                    <rect key="frame" x="62" y="281" width="58" height="58"/>
+                    <state key="normal" image="gesture_normal.png">
+                        <attributedString key="attributedTitle"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FWF-vu-rr5">
+                    <rect key="frame" x="177" y="281" width="58" height="58"/>
+                    <state key="normal" image="gesture_normal.png">
+                        <attributedString key="attributedTitle"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SMH-MJ-du0">
+                    <rect key="frame" x="281" y="281" width="58" height="58"/>
+                    <state key="normal" image="gesture_normal.png">
+                        <attributedString key="attributedTitle"/>
+                    </state>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="2y1-8s-h21" firstAttribute="leading" secondItem="60v-fr-Fmv" secondAttribute="trailing" constant="46" id="5Cm-5F-ymT"/>
+                <constraint firstItem="6kX-uA-OgE" firstAttribute="leading" secondItem="OFo-g5-rpm" secondAttribute="trailing" constant="51" id="6Zw-9m-jfN"/>
+                <constraint firstItem="7bk-Dk-EVp" firstAttribute="leading" secondItem="6kX-uA-OgE" secondAttribute="trailing" constant="46" id="7qR-su-d2F"/>
+                <constraint firstItem="kmE-ET-ZJu" firstAttribute="top" secondItem="OFo-g5-rpm" secondAttribute="bottom" constant="45" id="7ts-l8-Kxb"/>
+                <constraint firstItem="6kX-uA-OgE" firstAttribute="top" secondItem="60v-fr-Fmv" secondAttribute="bottom" constant="44" id="8Um-6Y-YAX"/>
+                <constraint firstItem="FWF-vu-rr5" firstAttribute="leading" secondItem="kmE-ET-ZJu" secondAttribute="trailing" constant="57" id="BUw-BH-ygD"/>
+                <constraint firstItem="2y1-8s-h21" firstAttribute="top" secondItem="YkL-I9-Zw1" secondAttribute="top" constant="76" id="Eg5-Sj-Arf"/>
+                <constraint firstItem="OFo-g5-rpm" firstAttribute="top" secondItem="Iyk-H6-HKD" secondAttribute="bottom" constant="44" id="HpA-d4-uns"/>
+                <constraint firstItem="Iyk-H6-HKD" firstAttribute="leading" secondItem="YkL-I9-Zw1" secondAttribute="leading" constant="68" id="Iu6-74-1bc"/>
+                <constraint firstAttribute="bottom" secondItem="SMH-MJ-du0" secondAttribute="bottom" constant="61" id="NzO-aF-TsJ"/>
+                <constraint firstAttribute="trailing" secondItem="2y1-8s-h21" secondAttribute="trailing" constant="61" id="Vvd-Z6-P8p"/>
+                <constraint firstAttribute="trailing" secondItem="SMH-MJ-du0" secondAttribute="trailing" constant="61" id="XTX-73-MpT"/>
+                <constraint firstItem="7bk-Dk-EVp" firstAttribute="top" secondItem="2y1-8s-h21" secondAttribute="bottom" constant="44" id="Y9D-mk-pNk"/>
+                <constraint firstItem="60v-fr-Fmv" firstAttribute="leading" secondItem="Iyk-H6-HKD" secondAttribute="trailing" constant="51" id="Zt3-ir-lpc"/>
+                <constraint firstItem="FWF-vu-rr5" firstAttribute="top" secondItem="6kX-uA-OgE" secondAttribute="bottom" constant="45" id="a3T-Mb-DY1"/>
+                <constraint firstItem="60v-fr-Fmv" firstAttribute="top" secondItem="YkL-I9-Zw1" secondAttribute="top" constant="76" id="dCh-Hb-8JE"/>
+                <constraint firstItem="SMH-MJ-du0" firstAttribute="top" secondItem="7bk-Dk-EVp" secondAttribute="bottom" constant="45" id="f3Q-4D-FBR"/>
+                <constraint firstItem="kmE-ET-ZJu" firstAttribute="leading" secondItem="YkL-I9-Zw1" secondAttribute="leading" constant="62" id="gE4-bo-nMX"/>
+                <constraint firstItem="Iyk-H6-HKD" firstAttribute="top" secondItem="YkL-I9-Zw1" secondAttribute="top" constant="76" id="gV2-Pr-Xg2"/>
+                <constraint firstItem="SMH-MJ-du0" firstAttribute="leading" secondItem="FWF-vu-rr5" secondAttribute="trailing" constant="46" id="hon-3I-xot"/>
+                <constraint firstAttribute="bottom" secondItem="FWF-vu-rr5" secondAttribute="bottom" constant="61" id="lE2-zN-4Pc"/>
+                <constraint firstAttribute="bottom" secondItem="kmE-ET-ZJu" secondAttribute="bottom" constant="61" id="sp1-Lp-11J"/>
+                <constraint firstAttribute="trailing" secondItem="7bk-Dk-EVp" secondAttribute="trailing" constant="61" id="wBu-r6-9RG"/>
+                <constraint firstItem="OFo-g5-rpm" firstAttribute="leading" secondItem="YkL-I9-Zw1" secondAttribute="leading" constant="68" id="wxn-8w-trk"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-184" y="36"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="gesture_normal.png" width="58" height="58"/>
+    </resources>
+</document>
